@@ -2,9 +2,9 @@
 class MonApp < Formula
   desc "Description de mon app"
   homepage "https://github.com/agardenat/kdt"
-  version "1.0.3"
-  url "https://github.com/agardenat/kdt/releases/download/v1.0.3/kdt-macos-universal.tar.gz"
-  sha256 "c528efdbae976a5bf37d04ae9fce1f36dea38e06c23df52d8083bbd25b45182c"
+  version "1.1.0"
+  url "https://github.com/agardenat/kdt/releases/download/v1.1.0/kdt-macos-universal.tar.gz"
+  sha256 "eff677f8dc5d6a7a61215710003668937fba73c067293867b41654025c6bc7bb"
 
   def install
     bin.install "kdt"
