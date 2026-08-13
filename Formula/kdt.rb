@@ -1,15 +1,15 @@
 class Kdt < Formula
   desc "Kubernetes diagnostics, events and logs in a terminal UI"
   homepage "https://github.com/agardenat/kdt"
-  version "1.18.0"
-  url "https://github.com/agardenat/kdt/releases/download/v1.18.0/kdt-macos-universal.tar.gz"
-  sha256 "a3b3873f3a3ee96977424bae8b2e110c61144ac10438f69260a6e9c86f4f95f5"
+  version "1.19.0"
+  url "https://github.com/agardenat/kdt/releases/download/v1.19.0/kdt-macos-universal.tar.gz"
+  sha256 "da767c1ce593a1a36b41f084fc6fbc2d254b561d73f9f2390fb5aeb3c0181f9f"
 
   depends_on :macos
 
   bottle do
-    root_url "https://github.com/agardenat/kdt/releases/download/v1.18.0"
-    sha256 cellar: :any_skip_relocation, all: "fce9b573c6a81df7d62a3d7dafe05631aa584554c188912206b5c57bddb08ec5"
+    root_url "https://github.com/agardenat/kdt/releases/download/v1.19.0"
+    sha256 cellar: :any_skip_relocation, all: "b0b7303f01c926eb53c85667f1f169900df04935ba98af3ce9adc3da1f63c726"
   end
 
   def install
